@@ -1,10 +1,147 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My GitHub Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Jennifer Agbo">
+  <meta name="description" content="Jennifer Agbo - Economist, Data Analyst, and Researcher">
+  <title>Jennifer Agbo | Economist & Data Analyst</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+      background-color: #4CAF50;
+      color: white;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+    header h3 {
+      margin: 0;
+      font-weight: 400;
+      font-size: 1.5rem;
+    }
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    .section-title {
+      font-size: 1.8rem;
+      border-bottom: 2px solid #4CAF50;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .projects,
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .project,
+    .skill {
+      flex: 1 1 calc(33% - 2rem);
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 1rem;
+      text-align: center;
+      background: white;
+    }
+    .project a,
+    .skill a {
+      text-decoration: none;
+      color: #4CAF50;
+      font-weight: bold;
+    }
+    .contact a {
+      text-decoration: none;
+      color: #4CAF50;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #4CAF50;
+      color: white;
+    }
+  </style>
 </head>
 <body>
-    <h1>Welcome to Jenamara-Agbo's GitHub Page</h1>
-    <p>This is my first GitHub Pages site.</p>
+  <header>
+    <h1>Jennifer Agbo</h1>
+    <h3>Economist | Data Analyst | Researcher</h3>
+  </header>
+
+  <section>
+    <h2 class="section-title">About Me</h2>
+    <p>
+      Hi there! I’m Jennifer Agbo, a passionate <strong>Economist</strong> and <strong>Data Analyst</strong> pursuing my 
+      <strong>MA in International and Development Economics</strong> at Yale University. My work focuses on development 
+      economics, macroeconomic policy, and clean energy solutions for Sub-Saharan Africa.  
+      <br><br>
+      Fun Fact: When I’m not analyzing data, I enjoy exploring photography and attending fashion shows! 🌸📸
+    </p>
+  </section>
+
+  <section>
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Economic Analysis Repository</h3>
+        <a href="https://github.com/Jenamara-Agbo/Economic-Analysis" target="_blank">Explore Project</a>
+      </div>
+      <div class="project">
+        <h3>Nigeria-China Trade and Clean Energy</h3>
+        <a href="https://github.com/Jenamara-Agbo/Trade-Clean-Energy" target="_blank">Explore Project</a>
+      </div>
+      <div class="project">
+        <h3>Presidential Speech Analysis</h3>
+        <a href="https://github.com/Jenamara-Agbo/Presidential-Speeches" target="_blank">Explore Project</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Skills & Tools</h2>
+    <div class="skills">
+      <div class="skill">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="50">
+        <p>Python</p>
+      </div>
+      <div class="skill">
+        <img src="https://img.icons8.com/ios-filled/50/000000/tableau-software.png" alt="Tableau" width="50">
+        <p>Tableau</p>
+      </div>
+      <div class="skill">
+        <img src="https://img.icons8.com/external-flat-juicy-fish/60/000000/external-stata-data-analysis-flat-flat-juicy-fish.png" alt="Stata" width="50">
+        <p>Stata</p>
+      </div>
+      <div class="skill">
+        <img src="https://img.icons8.com/color/48/000000/microsoft-excel-2019--v1.png" alt="Excel" width="50">
+        <p>Excel</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Contact Me</h2>
+    <p class="contact">
+      📧 <a href="mailto:jennifer.agbo@yale.edu">jennifer.agbo@yale.edu</a> <br>
+      🐦 <a href="https://twitter.com/jennifer_agbo1" target="_blank">@jennifer_agbo1</a> <br>
+      💼 <a href="https://www.linkedin.com/in/jennifer-agbo00/" target="_blank">LinkedIn Profile</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2024 Jennifer Agbo</p>
+  </footer>
 </body>
 </html>
