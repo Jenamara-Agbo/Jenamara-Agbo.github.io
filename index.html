@@ -12,18 +12,19 @@
       font-family: 'Roboto', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f4f4f9;
-      color: #333;
+      background-color: #1a1a1a; /* Black background */
+      color: #f4f4f9; /* Light text */
     }
     header {
       text-align: center;
-      padding: 2rem;
-      background-color: #4CAF50;
-      color: white;
+      padding: 3rem 1rem;
+      background-color: #4CAF50; /* Green header */
+      color: #1a1a1a; /* Dark text */
+      border-bottom: 5px solid #333; /* Black accent line */
     }
     header h1 {
       margin: 0;
-      font-size: 3rem;
+      font-size: 3.5rem;
     }
     header h3 {
       margin: 0;
@@ -36,10 +37,10 @@
       padding: 1rem;
     }
     .section-title {
-      font-size: 1.8rem;
-      border-bottom: 2px solid #4CAF50;
+      font-size: 2rem;
+      border-bottom: 3px solid #4CAF50;
       padding-bottom: 0.5rem;
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
     }
     .projects,
     .skills {
@@ -50,16 +51,18 @@
     .project,
     .skill {
       flex: 1 1 calc(33% - 2rem);
-      border: 1px solid #ccc;
+      border: 1px solid #4CAF50;
       border-radius: 5px;
       padding: 1rem;
       text-align: center;
-      background: white;
+      background: #333; /* Dark card background */
+      color: #f4f4f9; /* Light text */
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
     }
     .project a,
     .skill a {
       text-decoration: none;
-      color: #4CAF50;
+      color: #4CAF50; /* Green links */
       font-weight: bold;
     }
     .contact a {
@@ -68,9 +71,24 @@
     }
     footer {
       text-align: center;
-      padding: 1rem;
+      padding: 1.5rem;
+      background-color: #333; /* Dark footer */
+      color: #f4f4f9;
+      border-top: 5px solid #4CAF50;
+    }
+    .btn {
+      display: inline-block;
+      margin: 1rem 0;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      color: #1a1a1a;
       background-color: #4CAF50;
-      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background-color: #45a049;
     }
   </style>
 </head>
@@ -78,6 +96,8 @@
   <header>
     <h1>Jennifer Agbo</h1>
     <h3>Economist | Data Analyst | Researcher</h3>
+    <a href="https://drive.google.com/file/d/1wQ9jngjvJE0AtLvuhYmvqOMnZSDaEGHS/view?usp=sharing" class="btn" target="_blank">View My Resume</a>
+    <a href="https://drive.google.com/drive/folders/1y_MZsIDxzRyjAU4I93gACvMf-6xwKZvR?usp=sharing" class="btn" target="_blank">View My Portfolio</a>
   </header>
 
   <section>
